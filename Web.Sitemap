@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+    <siteMapNode url="" title="Admin"  description="">
+
+        <siteMapNode url="~/Admin/Default.aspx" title="[Admin]"  description="Admin" />
+
+        <siteMapNode url="~/Admin/Hqs.aspx" title="Headquarters"  description="" />
+
+        <siteMapNode url="~/Admin/Companies.aspx" title="Companies"  description="" />
+        <siteMapNode url="~/Admin/HqCompanies.aspx" title="HQ Companies"  description="" />
+
+        <siteMapNode url="~/Admin/DriverCredentialTypes.aspx" title="Driver Credential Types"  description="" />
+        <siteMapNode url="~/Admin/DriverInfractionTypes.aspx" title="Driver Infraction Types"  description="" />
+        <siteMapNode url="~/Admin/LocationTypes.aspx" title="Location Types"  description="" />
+        <siteMapNode url="~/Admin/ScheduleNoteTypes.aspx" title="Schedule Note Types"  description="" />
+        <siteMapNode url="~/Admin/ScheduleStatuses.aspx" title="Schedule Statuses"  description="" />
+        <siteMapNode url="~/Admin/ScheduleTransportationTypes.aspx" title="Schedule Transportation Types"  description="" />
+        <siteMapNode url="~/Admin/ScheduleTypes.aspx" title="Schedule Types"  description="" />
+        <siteMapNode url="~/Admin/VehicleLogTypes.aspx" title="Vehicle Log Types"  description="" />
+
+        <siteMapNode url="~/Admin/VehicleStatuses.aspx" title="Vehicle Statuses"  description="" />
+
+
+
+        <siteMapNode url="~/Admin/Airlines.aspx" title="[Clients]"  description="" />
+
+
+
+        <siteMapNode url="~/Admin/Drivers.aspx" title="[Drivers]"  description="" />
+        <siteMapNode url="~/Admin/DriverCredentials.aspx" title="Driver Credentials"  description="" />
+
+        <siteMapNode url="~/Admin/DriverInfractions.aspx" title="Driver Infractions"  description="" />
+
+        <siteMapNode url="~/Admin/DriverMedical.aspx" title="Driver Medical"  description="" />
+        <siteMapNode url="~/Admin/DriverNotes.aspx" title="Driver Notes"  description="" />
+
+
+
+        <siteMapNode url="~/Admin/Locations.aspx" title="[Locations]"  description="" />
+
+
+
+
+        <siteMapNode url="~/Admin/Schedule.aspx" title="[Schedule]"  description="" />
+        <siteMapNode url="~/Admin/ScheduleNotes.aspx" title="Schedule Notes"  description="" />
+
+
+
+        <siteMapNode url="~/Admin/Vehicles.aspx" title="[Vehicles]"  description="" />
+        <siteMapNode url="~/Admin/VehicleLogs.aspx" title="Vehicle Logs"  description="" />
+
+    </siteMapNode>
+</siteMap>

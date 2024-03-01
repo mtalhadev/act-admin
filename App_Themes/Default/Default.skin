@@ -1,0 +1,30 @@
+<asp:GridView runat="server" BackColor="White" GridLines="None">
+   <AlternatingRowStyle BackColor="ActiveBorder" />
+</asp:GridView>
+
+<asp:ImageButton runat="server" SkinID="CalendarImageButton" ImageUrl="~/images/minical.gif" />
+
+<data:EntityGridView runat="server"
+			AllowPaging="true" AllowSorting="true" 
+			PageSize="10" 
+            SortDescImageUrl="" 
+            SortAscImageUrl=""
+            ExportToExcelText="<img src='../Images/excel.gif' border='0' />"      			
+			AllowExportToExcel="true" 
+            BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3"  ForeColor="Black" GridLines="Vertical"
+			>
+            <AlternatingRowStyle BackColor="#CCCCCC" />
+            <FooterStyle BackColor="#CCCCCC" />
+            <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
+            <PagerStyle BackColor="#999999" ForeColor="Black" HorizontalAlign="Center" />
+            <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+</data:EntityGridView>	
+
+
+<asp:DropDownList runat="server" CssClass="dropdownlist"></asp:DropDownList>
+<asp:DropDownList SkinId="cboPageSize" CssClass="dropdownlist" runat="server" />
+<asp:LinkButton CssClass="linkbutton-tab" SkinID="cmdUserEdit" runat="server"></asp:LinkButton>
+<asp:TextBox runat="Server" CssClass="textbox"></asp:TextBox>
+<asp:RadioButtonList runat="server" CssClass="radiobuttonlist"></asp:RadioButtonList>
+<asp:CheckBoxList CssClass="radiobuttonlist" runat="server" RepeatColumns="4" />
+
